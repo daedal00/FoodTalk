@@ -7,8 +7,8 @@ error_reporting(E_ALL);
 // Database configuration
 $config = [
     "dbuser" => "ora_samuelk2",
-    "dbpassword" => "a71186696",
-    "dbserver" => "dbhost.students.cs.ubc.ca:1522/stu"
+    "dbpassword" => "insert_password",
+    "dbserver" => "dbhost"
 ];
 
 function connectToDB() {
