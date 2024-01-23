@@ -8,7 +8,7 @@ error_reporting(E_ALL);
 // Database configuration
 $hostname = 'dbhost.students.cs.ubc.ca:1522/stu';
 $username = 'ora_samuelk2';
-$password = 'a71186696';
+$password = 'insert_password';
 $conn = oci_connect($username, $password, $hostname);
 
 // Fetch user's profile ID for navbar link
